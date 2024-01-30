@@ -29,7 +29,7 @@ class Person:
    def set_gender(self, gender):
       self._gender = gender
    
-   def __str__(self):
+   def showInfo(self):
       return f"\nName: {self._name}, Age: {self._age}, Gender: {'M' if self._gender else 'W'}"
 
 

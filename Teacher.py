@@ -14,5 +14,5 @@ class Teacher(Person):
          raise ValueError("Experience must be an integer between 1.")
       self.__experience = experience
 
-   def __str__(self):
-      return f"{super().__str__()}, Experience: {self.__experience}"
+   def showInfo(self):
+      return f"{super().showInfo()}, Experience: {self.__experience}"

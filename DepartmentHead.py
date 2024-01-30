@@ -14,5 +14,5 @@ class DepartmentHead(Teacher):
          raise ValueError("Department must be a non-empty string.")
       self.__department = department
 
-   def __str__(self):
-      return f"{super().__str__()}, Department: {self.__department}"
+   def showInfo(self):
+      return f"{super().showInfo()}, Department: {self.__department}"

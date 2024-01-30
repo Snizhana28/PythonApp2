@@ -14,5 +14,5 @@ class Student(Person):
          raise ValueError("Course must be an integer between 1 and 5.")
       self.__course = course
 
-   def __str__(self):
-      return f"{super().__str__()}, Course: {self.__course}"
+   def showInfo(self):
+      return f"{super().showInfo()}, Course: {self.__course}"

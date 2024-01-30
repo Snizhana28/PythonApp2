@@ -7,9 +7,9 @@ student = Student("John", 20, True, 2)
 teacher = Teacher("Jane", 35, False, 8)
 department_head = DepartmentHead("Jack", 40, True, 10, "Computer Science")
 
-print(f"\nStudent {student}")
-print(f"\nTeacher {teacher}")
-print(f"\nDepartment Head {department_head}")
+print(f"\nStudent {student.showInfo()}")
+print(f"\nTeacher {teacher.showInfo()}")
+print(f"\nDepartment Head {department_head.showInfo()}")
 
 student.set_course(3)
 teacher.set_experience(9)
